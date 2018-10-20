@@ -1,0 +1,2 @@
+execute at @a if entity @e[type=skeleton,distance=..128,y_rotation=0..180,tag=!szn_checked] as @e[type=skeleton,distance=..128,y_rotation=0..180,tag=!szn_checked] at @s run function seasons:winter/stray
+execute at @a if entity @e[type=skeleton,distance=..128,tag=!szn_checked] run tag @e[type=skeleton,tag=!szn_checked,distance=..128] add szn_checked
